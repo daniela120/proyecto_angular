@@ -9,13 +9,17 @@ import { ListarComponent } from './component/listar/listar.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './componentes/login/login.component';
+import { RegisterComponent } from './componentes/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AgregarComponent,
     EditarComponent,
-    ListarComponent
+    ListarComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

@@ -9,7 +9,7 @@ import { Empleado } from './Empleado';
   providedIn: 'root'
 })
 export class CrudService {
-  API: string='http://localhost/empleados/';
+  API: string='http://localhost/empleados/'; //el link cambia dependiendo del puerto de apache de su maquina
 
     constructor(private clienteHttp:HttpClient) { }
 
